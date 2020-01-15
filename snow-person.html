@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Draw a snowperson</title>
+    <link rel="stylesheet" href="snow.css" />
+  </head>
+  <body>
+    <h1>Snow Person</h1>
+    <h2>Facts About my Snow Person</h2>
+    <ul>
+      <li>47 years old</li>
+      <li>Fashionable</li>
+      <li>likes to bake cookies and drink coke zero</li>
+      <li>Kind and warm</li>
+      <li>Always smiling</li>
+    </ul>
+    <h2>Snow Person Picture</h2>
+    <p>This is is what my snow person looks like:</p>
+    <svg width="600" height="350">
+
+      <!-- body -->
+      <circle cx="300" cy="230" r="90" />
+      <circle cx="300" cy="100" r="50" />
+
+      <!-- eyes nose -->
+      <circle class="eye" cx="285" cy="90" r="5" />
+      <circle class="eye" cx="315" cy="90" r="5" />
+      <circle class="nose" cx="300" cy="104" r="10" />
+
+      <!-- mustache mouth -->
+      <line x1="290" y1="125" x2="302" y2="120" stroke="black" stroke-width="3"/>
+      <line x1="300" y1="120" x2="311" y2="125" stroke="black" stroke-width="3"/>
+      <line x1="297" y1="126" x2="304" y2="126" stroke="black" />
+
+      <!-- arms -->
+      <line x1="230" x2="130" y1="200" y2="150" stroke="black" />
+      <line x1="370" x2="450" y1="200" y2="150" stroke="black" />
+
+      <!-- hat -->
+      <rect class="hat" x="278" y="0" width="45" height="60"/>
+      <rect class="hat" x="270" y="50" width="60" height="10"/>
+      <rect x="317" y="0" width="5" height="50" fill="white" stroke="black" />
+      <rect x="319" y="50" width="5" height="10" fill="white" stroke="black"
+      />
+
+      <!-- scarf -->
+      <rect class="scarf" x="260" y="130" width="80" height="20"/>
+      <rect class="scarf" x="260" y="130" width="30" height="100"/>
+      <rect class="scarf" x="261" y="230" width="4" height="15"/>
+      <rect class="scarf" x="269" y="230" width="4" height="15"/>
+      <rect class="scarf" x="277" y="230" width="4" height="15"/>
+      <rect class="scarf" x="285" y="230" width="4" height="15"/>
+    </svg>
+
+    <!--random rectangles-->
+    <svg width="600" height="200">
+      <rect x="4" y="0" width="200" height="200" fill="cyan" fill-opacity="0.2"/>
+      <rect x="100" y="100" width="200" height="400" fill="pink" fill-opacity="0.7" />
+
+      <text x="4" y="150" class="small">These</text>
+      <text x="50" y="150" class="heavy">are</text>
+      <text x="80" y="180" class="redtext">Rectangles</text>
+    </svg>
+
+    <p>How do you like my snow person?</p>
+  </body>
+</html>
